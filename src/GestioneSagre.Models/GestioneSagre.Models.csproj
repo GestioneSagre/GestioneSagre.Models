@@ -8,6 +8,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>net6.0</TargetFrameworks>
+    <Description>GestioneSagre Models components</Description>
+    <PackageTags>gestione sagre models csharp net netcore web opensource</PackageTags>
     <PackageIcon>Library.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
