@@ -7,12 +7,20 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <PackageIcon>Library.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/GestioneSagre/GestioneSagre.Models</RepositoryUrl>
+    <RepositoryBranch>master</RepositoryBranch>
   </PropertyGroup>
   
   <ItemGroup>
+    <None Include="..\..\Library.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+    </None>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
   </ItemGroup>
