@@ -7,7 +7,6 @@ namespace GestioneSagre.Models.ViewModels.Feste;
 
 public class FestaViewModel : BaseViewModel
 {
-    //public int Id { get; set; }
     public string DataInizio { get; set; }
     public string DataFine { get; set; }
     public string GuidFesta { get; set; }

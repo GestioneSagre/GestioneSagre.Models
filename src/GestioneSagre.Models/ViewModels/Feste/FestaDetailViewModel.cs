@@ -7,12 +7,10 @@ namespace GestioneSagre.Models.ViewModels.Feste;
 
 public class FestaDetailViewModel : BaseViewModel
 {
-    //public int Id { get; set; }
     public string DataInizio { get; set; }
     public string DataFine { get; set; }
     public string GuidFesta { get; set; }
     public FestaStato StatusFesta { get; set; }
-
     public List<IntestazioneViewModel> Intestazioni { get; set; } = new List<IntestazioneViewModel>();
 
     public static FestaDetailViewModel FromEntity(FestaEntity festa)
