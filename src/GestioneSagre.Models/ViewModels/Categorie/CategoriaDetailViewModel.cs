@@ -8,9 +8,9 @@ public class CategoriaDetailViewModel : BaseViewModel
     public string CategoriaStampa { get; set; }
     public string GuidFesta { get; set; }
 
-    public static CategoriaViewModel FromEntity(CategoriaEntity categoria)
+    public static CategoriaDetailViewModel FromEntity(CategoriaEntity categoria)
     {
-        return new CategoriaViewModel
+        return new CategoriaDetailViewModel
         {
             Id = categoria.Id,
             CategoriaVideo = categoria.CategoriaVideo,
