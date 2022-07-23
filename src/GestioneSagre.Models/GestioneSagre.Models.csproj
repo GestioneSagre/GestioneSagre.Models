@@ -41,8 +41,4 @@
         </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="InputModels\Categorie\" />
-    </ItemGroup>
-
 </Project>
