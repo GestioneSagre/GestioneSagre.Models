@@ -5,7 +5,6 @@ namespace GestioneSagre.Models.ViewModels.Intestazioni;
 
 public class IntestazioneViewModel : BaseViewModel
 {
-    //public int Id { get; set; }
     public int FestaId { get; set; }
     public string Titolo { get; set; }
     public string Edizione { get; set; }
