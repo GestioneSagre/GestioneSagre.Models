@@ -24,7 +24,7 @@ public class FestaDetailViewModel : BaseViewModel
             StatusFesta = festa.StatusFesta,
             Intestazioni = festa.Intestazioni
                 .OrderBy(intestazione => intestazione.Id)
-                .ThenBy(lesson => lesson.Id)
+                .ThenBy(intestazione => intestazione.Id)
                 .Select(intestazione => IntestazioneViewModel.FromEntity(intestazione))
                 .ToList()
         };
