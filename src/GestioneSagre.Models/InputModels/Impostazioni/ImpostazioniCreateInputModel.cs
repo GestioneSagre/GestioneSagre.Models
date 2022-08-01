@@ -1,4 +1,4 @@
-﻿namespace GestioneSagre.Models.InputModels.Categorie;
+﻿namespace GestioneSagre.Models.InputModels.Impostazioni;
 public class ImpostazioniCreateInputModel
 {
     public string GuidFesta { get; set; }
