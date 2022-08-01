@@ -1,6 +1,4 @@
-﻿using GestioneSagre.Models.ViewModels.Categorie;
-
-namespace GestioneSagre.Models.ViewModels.Feste;
+﻿namespace GestioneSagre.Models.ViewModels.Categorie;
 
 public class CategoriaListViewModel
 {
